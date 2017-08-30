@@ -1,0 +1,22 @@
+{
+  "name": "films-api",
+  "version": "0.0.1",
+  "description": "Api was created as test task at WebbyLab",
+  "main": "index.js",
+  "engines": {
+    "node": "4.6.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Dmytro Pustovit",
+  "dependencies": {
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.3",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
