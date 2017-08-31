@@ -18,7 +18,8 @@ module.exports = ({name,password} ,res)=>{
             });
             res.json({
                 success: true,
-                message: 'Enjoy your token!',
+                message: 'Authentication successful',
+                username: name,
                 token: token
             });
         }

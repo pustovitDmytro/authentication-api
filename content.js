@@ -8,6 +8,5 @@ module.exports = ({name} ,res)=>{
             elem.allow.some(
                 user => user===name
         )).map(elem=> elem.name);
-    console.log(menus);
     res.send(menus);
 };

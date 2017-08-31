@@ -6,7 +6,8 @@ const apiRoutes = express.Router();
 const app = express();
 const config = require('./config');
 const permissions = require('./permissions.json');
-
+const cors = require('cors');
+app.options('*', cors());
 app.set('secret', config.secret);
 
 app.use(function(req, res, next) {

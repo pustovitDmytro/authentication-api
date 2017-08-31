@@ -12,6 +12,7 @@
   },
   "author": "Dmytro Pustovit",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.15.4",
     "jsonwebtoken": "^7.4.3",
     "multer": "^1.3.0"

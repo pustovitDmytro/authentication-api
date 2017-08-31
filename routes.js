@@ -11,7 +11,7 @@ module.exports = (app,apiRoutes) => {
         require('./authenticate')(req.body,res)
     );
     apiRoutes.use(function(req, res, next) {
-        let token = req.headers['x-access-token'];
+        let token = req.headers['authorization'];
         if (token) {
             jwt.verify(token, secret, function(err, decoded) {
                 if (err) {

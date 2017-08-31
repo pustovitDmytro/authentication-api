@@ -15,13 +15,13 @@
 	],
 	"menu": [
 		{
-			"name": "MENU1", "allow": ["alice"]
+			"name": "MENU1", "allow": ["alice","admin"]
 		},
 		{
-			"name": "MENU2", "allow": ["bob"]
+			"name": "MENU2", "allow": ["bob","admin"]
 		},
 		{
-			"name": "MENU3", "allow": ["alice", "bob"]
+			"name": "MENU3", "allow": ["alice", "bob","admin"]
 		}
 		]
 }
